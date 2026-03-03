@@ -55,7 +55,7 @@ Task Explanation:
 The objective of this project was to build a predictive model using Linear Regression to analyze how multiple independent variables influence a continuous target variable. The workflow included data preprocessing steps such as handling missing values, detecting outliers, and checking multicollinearity using Variance Inflation Factor (VIF). A machine learning pipeline was implemented to integrate data imputation, feature scaling, and model training, ensuring a structured and reproducible process. The model was trained on a training dataset and evaluated on unseen test data to assess its generalization performance.
 
 Outcome :
-The Linear Regression model achieved a Test R² score of 0.78, explaining approximately 78% of the variance in the target variable. While minor multicollinearity effects were observed compared to regularized models, diagnostic plots—including Actual vs. Predicted and residual analysis—confirmed that key regression assumptions were reasonably satisfied. Overall, the model served as a strong baseline and provided clear interpretability of feature impacts on the target variable.
+The Linear Regression model achieved a Test R² score of 0.85, explaining approximately 85% of the variance in the target variable. While minor multicollinearity effects were observed compared to regularized models, diagnostic plots—including Actual vs. Predicted and residual analysis—confirmed that key regression assumptions were reasonably satisfied. Overall, the model served as a strong baseline and provided clear interpretability of feature impacts on the target variable.
 
 Ravi (1BO22EC048) - Model evaluation and its report
 
