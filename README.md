@@ -13,7 +13,7 @@ The primary objective of this project was to implement a predictive model using 
 Outcome :
 The analysis successfully identified the Ridge Regression model as the most effective approach for this specific dataset, outperforming other tested methods. This model achieved a notable level of accuracy, yielding a Test R2 score of 0.8041, which suggests that approximately 80.4% of the variance in the target variable can be explained by the included features. To ensure the reliability of these results, the project concluded with a series of diagnostic visualizations—including "Actual vs. Predicted" and residual plots—which confirmed that the model maintained a strong fit and satisfied the underlying assumptions of linear regression.
 
-Sruthi K S (4CB22CS136)
+Sruthi K S (4CB22CS136) - Data Collection and Preprocessing
 
 Task Explanation
 Collected the Life Expectancy dataset from Kaggle and performed complete data cleaning and preprocessing.
@@ -25,7 +25,7 @@ Generated a fully cleaned and structured dataset ready for machine learning anal
 Improved data quality by eliminating inconsistencies and scaling numerical features properly.
 Saved the final processed dataset as life_expectancy_cleaned.csv for accurate model training and evaluation.
 
-Saayanth M  (1ST22AI042)
+Saayanth M  (1ST22AI042) - End-to-End Data Preparation
 
 Task Explanation:
 Performed data preprocessing on the Life Expectancy dataset including handling missing values, encoding categorical variables, and feature scaling.
@@ -37,11 +37,14 @@ Identified key factors such as income, immunization, and healthcare indicators s
 Successfully developed a predictive model with improved accuracy after proper preprocessing and feature engineering.
 Gained hands-on experience in end-to-end data analytics workflow including data cleaning, visualization, modeling, and evaluation.
 
-Vrushank Skanda B (1JT22AI059)
+Vrushank Skanda B (1JT22AI059) - Feature Engineering 
 
 Task Explanation :
-Robust Missing Value Handling: Identified null values with .isnull().sum() and applied Median Imputation. This is mathematically superior to mean imputation for this dataset as it prevents extreme GDP and Mortality outliers from biasing the data.Competition-Level Feature Engineering: Developed advanced predictors including Ratios (Health Expenditure vs. Mortality), Log Transformations (to handle skewed GDP), and Composite Indices. Components were normalized before averaging to ensure equal weight across different scales.Leakage-Free Scaling & Temporal Integration: Performed a Train-Test Split before applying StandardScaler to prevent data leakage. Unlike previous versions, the Year variable was included in the scaling process to correctly normalize temporal trends alongside other predictors.
+Strategic Imputation: Identified null values with .isnull().sum() and implemented Median Imputation. This ensures the dataset remains robust against extreme GDP and mortality outliers that would otherwise skew a mean-based calculation.
+Advanced Feature Engineering: Developed mathematically sound predictors including Healthcare Ratios and Composite Indices. Components were normalized via MinMaxScaler before averaging to prevent large-scale variables from dominating the index.
+Leakage-Free Temporal Scaling: Executed a Train-Test Split prior to standardization to ensure model generalization. Unlike standard preprocessing, the Year variable was included in the StandardScaler pipeline to correctly normalize temporal trends.
 
 Outcome of Work :
-Optimized Predictive Power: Created highly correlated features, such as the education_income_interaction and disease_index, which provide a stronger mathematical foundation for high-accuracy model training than raw variables.Standardized & Integrity-Verified Data: Produced a clean environment where all numerical features (including Year) are standardized and data types are explicitly cast to float to eliminate system warnings and processing errors.Validated Master Datasets: Successfully exported two distinct, ready-to-use files—life_expectancy_train_master.csv and life_expectancy_test_master.csv—ensuring the evaluation phase is scientifically valid and free from leakage.
-
+Maximized Feature Correlation: Engineered new variables, such as education_income_interaction, which exhibit significantly higher correlation with the target than raw data, providing a stronger foundation for high-accuracy regression.
+Data Integrity & Type Safety: Produced a refined data environment where all features are standardized and explicitly cast to float, successfully eliminating pandas FutureWarning messages and dtype conflict errors.
+Validated Master Datasets: Exported two distinct, ready-to-use master files—life_expectancy_train_master.csv and life_expectancy_test_master.csv—ensuring evaluation is scientifically valid and free from data leakage.
