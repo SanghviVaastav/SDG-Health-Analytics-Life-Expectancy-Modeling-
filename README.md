@@ -48,3 +48,11 @@ Outcome of Work :
 Maximized Feature Correlation: Engineered new variables, such as education_income_interaction, which exhibit significantly higher correlation with the target than raw data, providing a stronger foundation for high-accuracy regression.
 Data Integrity & Type Safety: Produced a refined data environment where all features are standardized and explicitly cast to float, successfully eliminating pandas FutureWarning messages and dtype conflict errors.
 Validated Master Datasets: Exported two distinct, ready-to-use master files—life_expectancy_train_master.csv and life_expectancy_test_master.csv—ensuring evaluation is scientifically valid and free from data leakage.
+
+Sadiya Kulsum (1HK22CS124) - Linear Regression Model
+
+Task Explanation:
+The objective of this project was to build a predictive model using Linear Regression to analyze how multiple independent variables influence a continuous target variable. The workflow included data preprocessing steps such as handling missing values, detecting outliers, and checking multicollinearity using Variance Inflation Factor (VIF). A machine learning pipeline was implemented to integrate data imputation, feature scaling, and model training, ensuring a structured and reproducible process. The model was trained on a training dataset and evaluated on unseen test data to assess its generalization performance.
+
+Outcome :
+The Linear Regression model achieved a Test R² score of 0.78, explaining approximately 78% of the variance in the target variable. While minor multicollinearity effects were observed compared to regularized models, diagnostic plots—including Actual vs. Predicted and residual analysis—confirmed that key regression assumptions were reasonably satisfied. Overall, the model served as a strong baseline and provided clear interpretability of feature impacts on the target variable.
