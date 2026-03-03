@@ -34,9 +34,10 @@ Successfully developed a predictive model with improved accuracy after proper pr
 Gained hands-on experience in end-to-end data analytics workflow including data cleaning, visualization, modeling, and evaluation.
 
 Vrushank Skanda B (1JT22AI059)
-Task Explanation
+
+Task Explanation :
 Robust Missing Value Handling: Identified null values with .isnull().sum() and applied Median Imputation. This is mathematically superior to mean imputation for this dataset as it prevents extreme GDP and Mortality outliers from biasing the data.Competition-Level Feature Engineering: Developed advanced predictors including Ratios (Health Expenditure vs. Mortality), Log Transformations (to handle skewed GDP), and Composite Indices. Components were normalized before averaging to ensure equal weight across different scales.Leakage-Free Scaling & Temporal Integration: Performed a Train-Test Split before applying StandardScaler to prevent data leakage. Unlike previous versions, the Year variable was included in the scaling process to correctly normalize temporal trends alongside other predictors.
 
-Outcome of Work
+Outcome of Work :
 Optimized Predictive Power: Created highly correlated features, such as the education_income_interaction and disease_index, which provide a stronger mathematical foundation for high-accuracy model training than raw variables.Standardized & Integrity-Verified Data: Produced a clean environment where all numerical features (including Year) are standardized and data types are explicitly cast to float to eliminate system warnings and processing errors.Validated Master Datasets: Successfully exported two distinct, ready-to-use files—life_expectancy_train_master.csv and life_expectancy_test_master.csv—ensuring the evaluation phase is scientifically valid and free from leakage.
 
