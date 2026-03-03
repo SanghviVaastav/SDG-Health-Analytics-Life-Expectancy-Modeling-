@@ -56,3 +56,15 @@ The objective of this project was to build a predictive model using Linear Regre
 
 Outcome :
 The Linear Regression model achieved a Test R² score of 0.78, explaining approximately 78% of the variance in the target variable. While minor multicollinearity effects were observed compared to regularized models, diagnostic plots—including Actual vs. Predicted and residual analysis—confirmed that key regression assumptions were reasonably satisfied. Overall, the model served as a strong baseline and provided clear interpretability of feature impacts on the target variable.
+
+Ravi (1BO22EC048) - Model evaluation and its report
+
+Task Explanation:
+This project predicts life expectancy in developing nations using sanitation access and infant mortality.
+Three models were implemented: Simple Linear Regression, Multiple Linear Regression, and Polynomial Regression.
+Among them, Simple Linear Regression achieved the best performance with the highest R² and lowest error values.
+
+Outcome:
+The study confirms that sanitation and infant mortality strongly influence life expectancy.
+Simple Linear Regression provided the most accurate and reliable predictions.
+The analysis supports data-driven public health decisions aligned with SDG 3 goals.
