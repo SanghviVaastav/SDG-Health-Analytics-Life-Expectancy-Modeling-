@@ -72,6 +72,24 @@ The dataset was filtered to focus on developing countries and extensively cleane
 - Improved data consistency and quality.
 
 ---
+**Avinash**
+Primary Responsibility: Performed Exploratory Data Analysis (EDA) to understand data patterns and support the modeling team.
+
+🔍 Key Tasks:
+
+Conducted statistical analysis (mean, median, standard deviation).
+
+Identified skewed distributions and outliers.
+
+Performed correlation analysis and detected multicollinearity.
+
+Created visualizations including heatmaps, distribution plots, and trend analysis graphs.
+
+📦 Deliverables:
+
+Complete EDA report.
+
+Insight summary with feature importance and preprocessing recommendations for the modeling team.
 
 ## 👨‍💻 Vrushank Skanda B (1JT22AI059)  
 ### Role: Feature Engineering
