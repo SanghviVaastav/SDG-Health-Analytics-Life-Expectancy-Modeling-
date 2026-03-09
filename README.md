@@ -72,7 +72,7 @@ The dataset was filtered to focus on developing countries and extensively cleane
 - Improved data consistency and quality.
 
 ---
-**Avinash**
+## 👨‍💻 Avinash nashi (1BO22CS007)**
 Primary Responsibility: Performed Exploratory Data Analysis (EDA) to understand data patterns and support the modeling team.
 
 🔍 Key Tasks:
